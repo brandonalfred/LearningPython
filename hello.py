@@ -41,3 +41,24 @@ super_villians = {'Fiddler': 'Isaac Bowin',
 # using different methods
 print(super_villians['Captian Cold'])
 print(super_villians.get("Fiddler"))
+
+# Conditionals
+print("\n")
+
+age = 18
+
+if age > 16:
+    print("You're old enough to drive")
+elif age > 21:
+    print("You're old enough to drink")
+elif age < 21:
+    print("You're not old enough to drive")
+else:
+    print("sorry :(")
+
+print("\n")
+
+if (age > 1) and (age > 16):
+    print("You're not a kid, and you're old enough to drive")
+else:
+    print("sorry :(")
