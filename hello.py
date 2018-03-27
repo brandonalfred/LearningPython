@@ -38,5 +38,6 @@ super_villians = {'Fiddler': 'Isaac Bowin',
                   'Captian Cold': 'Leonard Snart',
                   'Pied Piper': 'Thomas Peterson'}
 
+# using different methods
 print(super_villians['Captian Cold'])
 print(super_villians.get("Fiddler"))
