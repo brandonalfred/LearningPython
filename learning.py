@@ -1,3 +1,5 @@
+import random
+
 print("\nHello World!")
 
 name = "Brandon Alfred"
@@ -62,3 +64,35 @@ if (age > 1) and (age > 16):
     print("You're not a kid, and you're old enough to drive")
 else:
     print("sorry :(")
+
+# to print a for loop in one line
+for x in range(0, 10):
+    print(x, " ", end="")
+
+print("\n")
+
+# new line will be done automatically
+for x in range(0, 10):
+    print(x, " ")
+
+print("\n")
+
+for i in super_villians:
+    print(i)
+
+print("\n")
+
+print(super_villians)
+
+print("\n")
+
+for i in grocery_list:
+    print(i)
+
+print("\n")
+
+random_num = random.randrange(0, 20)
+
+while(random_num != 10):
+    print(random_num)
+    random_num = random.randrange(0, 20)
