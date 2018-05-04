@@ -1,4 +1,6 @@
 import random
+import sys
+import numpy as np
 
 class Functions:
     def __init__(self):
@@ -107,3 +109,15 @@ print("\n")
 
 test = Functions()
 print(test.add_numbers(6, 4))
+
+print("\n")
+
+arr = [1, 2, 3, 4, 5]
+
+num_arr = np.array(arr)
+
+print(num_arr)
+
+print(num_arr.sum())
+print(num_arr.mean())
+print(num_arr.cumprod())
