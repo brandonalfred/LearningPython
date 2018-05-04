@@ -1,5 +1,12 @@
 import random
 
+class Functions:
+    def __init__(self):
+        print("object created")
+
+    def add_numbers(self, num1, num2):
+        return num1 + num2
+
 print("\nHello World!")
 
 name = "Brandon Alfred"
@@ -97,4 +104,7 @@ while(random_num != 10):
     print(random_num)
     random_num = random.randrange(0, 20)
 
+print("\n")
 
+test = Functions()
+print(test.add_numbers(6, 4))
