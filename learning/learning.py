@@ -20,7 +20,6 @@ print(name)  # variable types can be changed dynamically
 print("\n")
 
 # this is a comment
-
 '''
 this is how you make a comment blocks
 '''
